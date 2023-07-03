@@ -1,0 +1,24 @@
+{
+  "name": "arman-dinara",
+  "version": "1.0.0",
+  "description": "wedding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./src/style.css -o ./dist/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khangeldy/arman-dinara.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khangeldy/arman-dinara/issues"
+  },
+  "homepage": "https://github.com/Khangeldy/arman-dinara#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

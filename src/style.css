@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Comfortaa', cursive;;
+}
+
+.secondary-font {
+	font-family: 'Allura', cursive;
+}
+
+.share__wrapper {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.share__list {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  list-style: none;
+}
+
+.share__item + .share__item {
+  margin-left: 1rem;
+}
+
+.share__link {
+  border: none;
+}
+.share__link > * {
+  pointer-events: none;
+}
+
+.bg-frame {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.bg-frame .bg-frame-top {
+  background-image: url('./images/frame-top.png');
+  background-size: contain;
+  background-repeat-y: no-repeat;
+  height: 150px;
+  width: 100%;
+  margin-bottom: auto;
+  position: fixed;
+  top: 0;
+}
+
+.bg-frame .bg-frame-bottom {
+  background-image: url('./images/frame-bottom.png');
+  background-size: contain;
+  background-repeat-y: no-repeat;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  bottom: 0;
+}
+
+.table-img {
+  background-image: url('./images/table.jpg');
+  background-size: cover;
+  height: 300px;
+  width: auto;
+}

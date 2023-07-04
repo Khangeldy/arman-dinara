@@ -117,6 +117,7 @@ class AnimateHeartCanvas {
         heartLayer.style.position = 'fixed'
         heartLayer.style.top = '0'
         heartLayer.style.left = '0'
+        heartLayer.style.pointerEvents = 'none'
     }
 
 
